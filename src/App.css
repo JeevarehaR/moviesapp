@@ -10,6 +10,8 @@
 
 .movie-container{
   width: 340px;
+  height: min-content;
+  margin: 10px;
 }
 
 .movie-poster{
@@ -50,4 +52,13 @@
 
 .progress-container {
   width: 340px;
+}
+
+.add-movie-form{
+  display : flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+  gap: 10px;
 }
